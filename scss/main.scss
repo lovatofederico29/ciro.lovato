@@ -3,15 +3,20 @@
     padding: 0;
 }
 
-@import "./componentes/header" ;
-@import "./componentes/body" ;
-@import "./componentes/main" ;
-@import "./componentes/footer" ;
 @import "./secciones/index" ;
 @import "./secciones/canavan" ;
 @import "./secciones/galeria" ;
 @import "./secciones/contactenos" ;
 @import "./secciones/donaahora" ;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Merriweather', serif;
+}
+
 
 body {
     background-image: url(../img/fondo.jpg);
