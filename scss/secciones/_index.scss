@@ -1,0 +1,57 @@
+.h1_index {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.container-fluid {
+  font-size: 15px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+.main_index {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.imagen {
+  width: 350;
+  height: 400;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.seccion1 {
+  width: 350px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, rgba(81, 73, 73, 0.314), rgba(189, 189, 204, 0.412));
+  border: rgb(33, 37, 41) 2px solid;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.imagen1 {
+  margin-left: auto;
+  background-image: url(../img/ciro.jpg);
+  background-size: cover;
+}
+
+.h2_index {
+  padding-bottom: 10px;
+}
+
+.p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(40, 23, 23);
+  background-color: rgb(249, 240, 240);
+  margin-right: 5px;
+  padding-top: 10px;
+  line-height: 23px;
+}
