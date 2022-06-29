@@ -219,3 +219,35 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 768px) {
+
+ /* index */ 
+  .seccion1 {
+    width: 300px;
+    height: auto;
+}
+
+/* canavan */
+
+.video_canavan video {
+  text-align: center;
+  padding-bottom: 2rem;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+}
+/* galeria */
+
+.main_galeria {
+    margin: 0rem;
+}
+
+.albun video {
+  width: 200px;
+  height: 300px;
+  border: #0f000f dashed 1px;
+  margin: none;
+  padding-top: 10px;
+  border-radius: 2px;
+}
+}
