@@ -5,6 +5,10 @@
   font-family: 'Abril Fatface', cursive;
   font-family: 'Merriweather', serif; }
 
+main {
+  padding: 100px;
+  height: 80%; }
+
 header {
   height: 10%; }
 
@@ -227,10 +231,6 @@ form {
   color: #fefafa;
   padding: 10px;
   border-radius: #0a000a 5px solid; }
-
-main {
-  padding: 100px;
-  height: 80%; }
 
 /* animaciones */
 @keyframes cambioancho {

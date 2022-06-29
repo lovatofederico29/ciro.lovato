@@ -6,8 +6,10 @@
   font-family: 'Abril Fatface', cursive;
   font-family: 'Merriweather', serif;
 }
+
 @import "./variables/tipografias" ;
 @import "./variables/colores" ;
+@import "./componentes/main" ;
 @import "./componentes/header" ;
 @import "./secciones/canavan" ;
 @import "./componentes/body" ;
@@ -18,10 +20,6 @@
 @import "./secciones/index" ;
 @import "./componentes/footer" ;
 
-main {
-  padding: 100px;
-  height: 80%;
-}
 
 /* animaciones */
 @keyframes cambioancho {
