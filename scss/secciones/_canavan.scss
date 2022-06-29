@@ -19,11 +19,15 @@
 
 .accordion-button {
   font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .accordion-body {
   font-size: 1rem;
-  background-color: beige;
+  color: rgb(50, 54, 137);
+  font-family: $parrafosecundario;
+  font-size: 1,5rem;
+
 }
 
 .accordion-item {
