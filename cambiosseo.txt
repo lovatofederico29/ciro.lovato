@@ -1,0 +1,29 @@
+-cambio 1
+
+Agregue etiqueta title:
+
+Index: todos con Ciro
+Canavan: todos con Ciro - Canavan
+Galeria: todos con Ciro - Galeria
+Contactanos: todos con Ciro - contactanos 
+Donaahora: todos con Ciro - donaahora 
+
+-Cambio 2 
+
+Agregue étiqueta keywords:
+
+Index: ciro, familia, enfermedad, canavan, diagnostico.
+Canavan: enfermedad, canavan, diagnostico, sintomas, tratamiento.
+Galeria: ciro, familia, juegos, hospital, hermano.
+Contactanos: mail, contacto, mensaje, ayuda.
+Donaahora: dona, enfermedad, tarjetas, ayuda.
+
+-Cambio 3 
+
+Agregue etiqueta description:
+
+Index: Hola, soy Ciro, luego de varios estudios en enero de 2022 me diagnosticaron enfermedad de Canavan.
+Canavan: Saber mas sobre la enfermedad.
+Galeria: Conoce mi vida.
+Contactanos: Escribinos, tus mensajes nos dan mucha alegria.
+Donaahora: Cualquier tipo de ayuda cambia mi dia a dia.
