@@ -264,6 +264,7 @@ form {
   .main_index {
     display: flex;
     flex-direction: column;
+    padding: 1px;
     text-align: center;
     align-items: center; }
   .index_h1 {
@@ -315,8 +316,10 @@ form {
     padding: 5px; }
   /* canavan */
   .canavan_main {
-    padding-top: 1rem;
-    padding-bottom: 6rem; }
+    padding: 1rem; }
+  .video_canavan video {
+    width: 300px;
+    height: 400px; }
   iframe {
     width: 300px;
     height: 350px;
@@ -332,6 +335,8 @@ form {
     text-align: left;
     margin: 3rem; }
   /* galeria */
+  .main_galeria {
+    padding: 0rem; }
   .h2_galeria {
     font-size: 1.5rem;
     padding-top: 1rem;
@@ -350,6 +355,8 @@ form {
     padding-top: 10px;
     border-radius: 2px; }
   /* contactenos */
+  .main_contactenos {
+    padding: 0rem; }
   form {
     border: #0a000a 1px solid;
     margin: 40px;
@@ -365,13 +372,15 @@ form {
     padding: 5px;
     margin: 5px; }
   /* dona ahora */
+  .main_donaahora {
+    padding: 0.5rem; }
   .h2_donaahora {
     margin-bottom: 3px;
     margin: 20px; }
   .p_donaahora {
     font-size: 1rem; } }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   /* index */
   .seccion1 {
     width: 300px;
@@ -385,11 +394,4 @@ form {
     border-radius: 10px; }
   /* galeria */
   .main_galeria {
-    margin: 0rem; }
-  .albun video {
-    width: 200px;
-    height: 300px;
-    border: #0f000f dashed 1px;
-    margin: none;
-    padding-top: 10px;
-    border-radius: 2px; } }
+    margin: 0rem; } }

@@ -53,10 +53,10 @@
     padding: 5px;
     height: 80%;
   }
-
   .main_index {
     display: flex;
     flex-direction: column;
+    padding: 1px;
     text-align: center;
     align-items: center;
   }
@@ -134,8 +134,12 @@
 
   /* canavan */
   .canavan_main {
-    padding-top: 1rem;
-    padding-bottom: 6rem;
+    padding: 1rem;
+  }
+
+  .video_canavan video {
+    width: 300px;
+    height: 400px;
   }
 
   iframe {
@@ -161,6 +165,11 @@
   }
 
   /* galeria */
+
+  .main_galeria {
+  
+    padding: 0rem;
+  }
   .h2_galeria {
     font-size: 1.5rem;
     padding-top: 1rem;
@@ -187,6 +196,11 @@
   }
 
   /* contactenos */
+
+  .main_contactenos{
+    padding: 0rem;
+  }
+
   form {
     border: #0a000a 1px solid;
     margin: 40px;
@@ -210,6 +224,11 @@
   }
 
   /* dona ahora */
+
+  .main_donaahora {
+
+    padding: 0.5rem;
+  } 
   .h2_donaahora {
     margin-bottom: 3px;
     margin: 20px;
@@ -219,7 +238,7 @@
     font-size: 1rem;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
  /* index */ 
   .seccion1 {
@@ -242,12 +261,5 @@
     margin: 0rem;
 }
 
-.albun video {
-  width: 200px;
-  height: 300px;
-  border: #0f000f dashed 1px;
-  margin: none;
-  padding-top: 10px;
-  border-radius: 2px;
-}
+
 }
