@@ -380,12 +380,14 @@ form {
   .p_donaahora {
     font-size: 1rem; } }
 
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
   /* index */
   .seccion1 {
     width: 300px;
     height: auto; }
   /* canavan */
+  .canavan_main {
+    padding: 2rem; }
   .video_canavan video {
     text-align: center;
     padding-bottom: 2rem;
@@ -393,5 +395,10 @@ form {
     height: 600px;
     border-radius: 10px; }
   /* galeria */
+  .main_galeria {
+    padding: 2rem; }
+  .albun video {
+    width: 193px;
+    height: 356px; }
   .main_galeria {
     margin: 0rem; } }
