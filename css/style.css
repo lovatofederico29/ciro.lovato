@@ -77,13 +77,15 @@ body {
 
 .albun {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center; }
 
 .albun video {
   display: inline;
-  width: 350px;
+  width: 250px;
   height: 400px;
-  border: #0f000f dashed 2px;
+  border: #0f000f dashed 1px;
   margin-top: 3rem;
   border-radius: 10px; }
 
@@ -228,7 +230,6 @@ form {
   font-family: arial; }
 
 .footer {
-  position: relative;
   padding: 5px;
   text-align: center; }
 
@@ -344,9 +345,11 @@ form {
   .carousel-inner {
     padding-top: 50px; }
   .albun {
-    grid-template-columns: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-items: center;
-    padding-top: 10px; }
+    margin: 1rem; }
   .albun video {
     width: 200px;
     height: 300px;
@@ -380,19 +383,20 @@ form {
   .p_donaahora {
     font-size: 1rem; } }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   /* index */
+  .main_index {
+    height: 80%; }
   .seccion1 {
     width: 300px;
-    height: auto; }
+    height: 450px; }
   /* canavan */
   .canavan_main {
-    padding: 2rem; }
+    padding: 0rem;
+    margin: 1rem; }
   .video_canavan video {
     text-align: center;
     padding-bottom: 2rem;
-    width: 400px;
-    height: 600px;
     border-radius: 10px; }
   /* galeria */
   .main_galeria {

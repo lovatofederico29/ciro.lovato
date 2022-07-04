@@ -22,14 +22,16 @@
 
 .albun {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
 }
 
 .albun video {
   display: inline;
-  width: 350px;
+  width: 250px;
   height: 400px;
-  border: #0f000f dashed 2px;
+  border: #0f000f dashed 1px;
   margin-top: 3rem;
   border-radius: 10px;
 }
